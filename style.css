@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@200;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card .card-header {
+    width: 500px;
+    height: 720px;
+    background-color: rgba(202, 198, 198, 0.19); 
+    margin: 20px 0px;
+    border-radius: 20px;
+    padding: 5px 0px 0px 0px;
+}
+
+.card .card-header .card-header-img img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.card .card-header .card-header-content h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    padding-top: 20px;
+}
+
+.card .card-header .card-header-content p {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    padding-top: px;
+    font-weight: 100;
+}
+
+.card .card-header .card-header-content ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card .card-header .card-header-content ul li i {
+    padding: 10px 5px;
+    font-size: 23px;
+    transition: .25s ease-in-out;
+}
+
+.card .card-header .card-header-content ul li  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.card .card-header .card-header-content ul li #orange:hover {
+    color: orangered;
+}
+
+.card .card-header .card-header-content ul li #blue:hover {
+    color: blue;
+}
+
+.card .card-header .card-header-content ul li #yellow:hover {
+    color: rgb(194, 194, 54);
+}
+
+.card .card-header .card-header-content ul li #purple:hover {
+    color: purple;
+}
+
+.card .card-header .card-header-content ul li #light-blue:hover {
+    color: rgb(9, 167, 220);
+}
+
+.card .card-header .card-header-content ul li #dark-purple:hover {
+    color: darkmagenta;
+}
+
+
+.card .card-about {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.card .card-about .col-1 .year {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.card .card-about .col-1 .soluk {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(129, 101, 101);
+}
+
+
+.card .card-contact {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    padding: 50px 15px;
+    margin: auto;
+    max-width: 86%;
+}
+
+.card-contact a {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-contact .social-media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-contact .social-media i {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
